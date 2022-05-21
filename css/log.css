@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    cursor: pointer;
+}
+body{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to right,#9FE2BF,#CCCCFF);
+}
+form{
+    width: 25rem;
+    height: 28rem;
+    display: flex;
+    flex-direction: column;
+    background: rgba(255,255,255,0.06);
+    box-shadow: 0 8px 32px 0 rgba(31,38,135);
+    border-radius: 30px;
+    border-left: 1px solid rgba(255,255,255,.3);
+    border-top: 1px solid rgba(255,255,255,.3);
+}
+form:before{
+    content: '';
+    position: absolute;
+    bottom: 3%;
+    right: 28%;
+    width: 200px;
+    height: 200px;
+    background: #CCCCFF;
+    border-radius: 50%;
+    z-index: -1;
+    opacity: .8;
+}
+form:after{
+    content: '';
+    position: absolute;
+    top: 3%;
+    left: 32%;
+    width: 120px;
+    height: 120px;
+    background: #CCCCFF;
+    border-radius: 50%;
+    z-index: -1;
+    opacity: .8;
+}
+h1{
+    font-size: 50px;
+    text-align: center;
+    color: black;
+    text-shadow: 2px 2px 4px rgba(0,0,0,.2);
+    letter-spacing: 3px;
+    margin-bottom: 5%;
+    opacity: .7;
+}
+label{
+    font-size: 20px;
+    color: black;
+    margin-left: 10%;
+    opacity: .8;
+    text-shadow: 2px 2px 4px rgba(0,0,0,.2);
+}
+input{
+    width: 80%;
+    margin: 5% auto;
+    margin-bottom: 8%;
+    border: none;
+    outline: none;
+    background: transparent;
+    color: black;
+    border-bottom: 1px solid rgba(255,255,255,0.6);
+    opacity: .8;
+}
+.login_form #email_error,
+.login_form #pass_error{
+    margin-top: 5px;
+    width: 345px;
+    font-size: 18px;
+    color:#c62828;
+    background: rgba(255,0,0,0.1);
+    text-align:center;
+    padding: 5px 8px;
+    border-radius: 3px;
+    border: 1px solid #EF9A9A;
+    display:none;
+}
+button{
+    width: 50%;
+    margin: 3% auto;
+    color: black;
+    font-size: 15px;
+    opacity: .7;
+    background: rgba(255,255,255,0.06);
+    padding: 10px 30px;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    text-shadow: 2px 2px 4px rgba(0,0,0,.2);
+    box-shadow: 3px 3px 5px rgba(31,38,135,.37);
+    border-left: 1px solid rgba(0,0,0,.3);
+    border-top: 1px solid rgba(255,255,255,.3);
+}
+button:hover{
+    background:#c7c7d4
+}
+a{
+    font-size: 12px;
+    text-align: center;
+    color: black;
+    opacity: .7;
+}
