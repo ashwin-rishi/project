@@ -50,6 +50,7 @@
         <div class="input_field">
           <button class="btn" type="button" onclick="submitData('donate');">Submit</button>
         </div>
+        <a href="/project/index.html">Back</a>
       </div>
     </form>
   </div>

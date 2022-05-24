@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
-    <title>Document</title>
+    <title>Donated Users</title>
     <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/bs4/dt-1.12.0/datatables.min.css"/>
     
   </head>
@@ -35,7 +35,7 @@
     <section class="pt-5">
         <div class="container-fluid">
             <div class="card">
-                <div class="card-header" style="color:white;background-color:lightblue">
+                <div class="card-header" style="color:white;Background-color:lightblue">
                    <h4>Donating Users</h4>
                 </div>
                 <div class="card-body">

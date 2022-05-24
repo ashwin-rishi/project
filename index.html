@@ -1,39 +1,317 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>madurai sevasharam</title>
-    <link rel="stylesheet" href="css/style.css">
-</head>
-<body>
-    <header>
-        <div class="logo"><img src="assets/logo1.png"></div>
-        <div id='nav'>
-           
-            <li><a href="#">Home</a></li>
-            <li><a href="about.html">About </a></li>
-            <li><a href="loc.html">Contact/Location</a></li>
-            <li><a href="gal.html">Gallery</a></li>
-            <li><a href="log.php">Login</a></li>
-        </div>
-    </header>
-    <div class="main">
-        <div class="content">
-            <h1>MADURAI SEVASHRAM</h1>
-            <h2><bold>WELCOME TO THE FAMILY</bold></h2>
-            <h3><bold>WE ARE SO GLAD TO HAVE YOU HERE!!</bold></h3>
-            <button onclick="window.location.href='reg.php';">
-                REGISTER NOW
-            </button>&nbsp;&nbsp;&nbsp;
-            <button onclick="window.location.href='don.php';">
-                DONATE US
-            </button>
-        </div>    
-        
-        </div>
-    </div>
-</body>
-</html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>MADURAI SEVASHRAM</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- Fonts -->
+        <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,700' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=Dosis:400,700' rel='stylesheet' type='text/css'>
 
+        <!-- Bootsrap -->
+        <link rel="stylesheet" href="homepage/assets/css/bootstrap.min.css">
+
+        <!-- Font awesome -->
+        <link rel="stylesheet" href="homepage/assets/css/font-awesome.min.css">
+
+        <!-- Owl carousel -->
+        <link rel="stylesheet" href="homepage/assets/css/owl.carousel.css">
+
+        <!-- Template main Css -->
+        <link rel="stylesheet" href="homepage/assets/css/style.css">
+        
+        <!-- Modernizr -->
+        <script src="homepage/assets/js/modernizr-2.6.2.min.js"></script>
+
+
+    </head>
+
+    <body>
+
+
+    <header class="main-header">
+        
+    
+        <nav class="navbar navbar-static-top">
+
+            <div class="navbar-main">
+              
+              <div class="container">
+
+                <div class="navbar-header">
+                  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+
+                  </button>
+                  
+                  <a class="navbar-brand" href="index.html"><img src="assets/logo1.png" alt="" style="height: 70px;width: 100px;"></a>
+                  
+                </div>
+
+                <div id="navbar" class="navbar-collapse collapse pull-right">
+
+                  <ul class="nav navbar-nav">
+
+                    <li><a class="is-active" href="#">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                 
+                    <li><a href="gal.html">GALLERY</a></li>
+                    <li><a href="loc.html">CONTACT</a></li>
+                    <li><a href="log.php">LOGIN</a></li>
+
+
+                  </ul>
+
+                </div> <!-- /#navbar -->
+
+              </div> <!-- /.container -->
+              
+            </div> <!-- /.navbar-main -->
+
+
+        </nav> 
+
+    </header> <!-- /. main-header -->
+
+
+
+
+    <!-- Carousel
+    ================================================== -->
+    <div id="homeCarousel" class="carousel slide carousel-home" data-ride="carousel">
+
+          <!-- Indicators -->
+          <ol class="carousel-indicators">
+            <li data-target="#homeCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#homeCarousel" data-slide-to="1"></li>
+            <li data-target="#homeCarousel" data-slide-to="2"></li>
+          </ol>
+
+          <div class="carousel-inner" role="listbox">
+
+            <div class="item active">
+
+              <img src="homepage/assets/images/slider/home-slider-1.jpg" alt="">
+
+              <div class="container">
+
+                <div class="carousel-caption">
+
+                  <h2 class="carousel-title bounceInDown animated slow">Because they need your help</h2>
+                  <h4 class="carousel-subtitle bounceInUp animated slow ">Do not let them down</h4>
+                  <a href="/project/reg.php" class="btn btn-lg btn-secondary hidden-xs bounceInUp animated slow">REGISTER NOW</a>
+                  <a href="/project/don.php" class="btn btn-lg btn-secondary hidden-xs bounceInUp animated slow">DONATE NOW</a>
+
+
+                </div> <!-- /.carousel-caption -->
+
+              </div>
+
+            </div> <!-- /.item -->
+
+
+            <div class="item ">
+
+              <img src="homepage/assets/images/slider/home-slider-2.jpg" alt="">
+
+              <div class="container">
+
+                <div class="carousel-caption">
+
+                  <h2 class="carousel-title bounceInDown animated slow">Together we can improve their lives</h2>
+                  <h4 class="carousel-subtitle bounceInUp animated slow"> So let's do it !</h4>
+                  <a href="/project/reg.php" class="btn btn-lg btn-secondary hidden-xs bounceInUp animated slow">REGISTER NOW</a>
+                  <a href="/project/don.php" class="btn btn-lg btn-secondary hidden-xs bounceInUp animated">DONATE NOW</a>
+
+                </div> <!-- /.carousel-caption -->
+
+              </div>
+
+            </div> <!-- /.item -->
+
+
+
+
+            <div class="item ">
+
+              <img src="homepage/assets/images/slider/home-slider-3.jpg" alt="">
+
+              <div class="container">
+
+                <div class="carousel-caption">
+
+                  <h2 class="carousel-title bounceInDown animated slow" >A penny is a lot of money, if you have not got a penny.</h2>
+                  <h4 class="carousel-subtitle bounceInUp animated slow">You can make the diffrence !</h4>
+                  <a href="/project/reg.php" class="btn btn-lg btn-secondary hidden-xs bounceInUp animated slow">REGISTER NOW</a>
+                  <a href="/project/don.php" class="btn btn-lg btn-secondary hidden-xs bounceInUp animated slow">DONATE NOW</a>
+
+                </div> <!-- /.carousel-caption -->
+
+              </div>
+
+            </div> <!-- /.item -->
+
+          </div>
+
+          <a class="left carousel-control" href="#homeCarousel" role="button" data-slide="prev">
+            <span class="fa fa-angle-left" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+
+          <a class="right carousel-control" href="#homeCarousel" role="button" data-slide="next">
+            <span class="fa fa-angle-right" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+
+    </div><!-- /.carousel -->
+
+
+    <div class="section-home our-sponsors animate-onscroll fadeIn">
+    
+      
+
+    </div> <!-- /.our-sponsors -->
+
+
+    
+
+
+    <footer class="main-footer">
+
+        <div class="footer-top">
+            
+        </div>
+
+
+        <div class="footer-main">
+            <div class="container">
+                
+                <div class="row">
+                    <div class="col-md-4">
+
+                        <div class="footer-col">
+
+                            <h4 class="footer-title">Address <span class="title-under"></span></h4>
+
+                            <div class="footer-content">
+
+                                <p>
+                                    <strong>MADURAI SEVASHRAM</strong><br> P&T Nagar,<br> Old Natham Road, <br>Near Balamandir school,<br> Arasamaram
+                                </p> 
+                            </div>
+                            
+                        </div>
+
+                    </div>
+
+                    <div class="col-md-4">
+
+                        <div class="footer-col">
+
+                            <h4 class="footer-title">LAST TWEETS <span class="title-under"></span></h4>
+
+                            <div class="footer-content">
+                                <ul class="tweets list-unstyled">
+                                    <li class=""> 
+                                      <a href="/project/index.html"style="font-size: 15px;">HOME</a>
+                                    </li>
+
+                                    <li class=""> 
+                                      <a href="/project/about.html"style="font-size: 15px;">ABOUT</a>
+                                    </li>
+
+                                    <li class=""> 
+                                      <a href="/"style="font-size: 15px;">CONTACT</a>
+                                    </li>
+                                    <li class=""> 
+                                      <a href="/project/gal.html"style="font-size: 15px;">GALLERY</a>
+                                    </li>
+
+                                </ul>
+                            </div>
+                            
+                        </div>
+
+                    </div>
+
+
+                    <div class="col-md-4">
+
+                        <div class="footer-col">
+
+                            <h4 class="footer-title">Contact us <span class="title-under"></span></h4>
+                            <div class="footer-content">
+                              <ul class="tweets list-unstyled">
+                                  <li class=""> 
+                                    <a href="project/don.php"style="font-size: 15px;">DONATE</a>
+                                  </li>
+
+                                  <li class=""> 
+                                    <a href="project/reg.php"style="font-size: 15px;">REGISTER</a>
+                                  </li>
+
+                                  <li class=""> 
+                                    <a href="project/"style="font-size: 15px;">LOGIN</a>
+                                  </li>
+                              </ul>
+                          </div>
+
+                            
+                        </div>
+
+                    </div>
+                    <div class="clearfix"></div>
+
+
+
+                </div>
+                
+                
+            </div>
+
+            
+        </div>
+
+        <div class="footer-bottom">
+
+            <div class="container text-right">
+                Sadaka @ copyrights 2015 - by <a href="http://www.ouarmedia.com" target="_blank">Ouarmedia</a>
+            </div>
+        </div>
+        
+    </footer> <!-- main-footer -->
+
+
+    <!--  Scripts
+    ================================================== -->
+
+    <!-- jQuery -->
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="homepage/assets/js/jquery-1.11.1.min.js"><\/script>')</script>
+
+    <!-- Bootsrap javascript file -->
+    <script src="homepage/assets/js/bootstrap.min.js"></script>
+    
+    <!-- owl carouseljavascript file -->
+    <script src="homepage/assets/js/owl.carousel.min.js"></script>
+
+    <!-- Template main javascript -->
+    <script src="homepage/assets/js/main.js"></script>
+
+    <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+    <script>
+        (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+        function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+        e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+        e.src='//www.google-analytics.com/analytics.js';
+        r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+        ga('create','UA-XXXXX-X');ga('send','pageview');
+    </script>
+
+    </body>
+</html>

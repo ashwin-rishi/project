@@ -56,8 +56,11 @@
                     <p>Agreed to follow the terms and conditions of Madurai Sevashramam</p>
                 </div>
                 <div class="input_field">
-                    <button class="btn" type="button" onclick="submitData('register');">Submit</button>
+                    <button class="btn" type="button" onclick="submitData('register');">Submit</button><br>
                 </div>
+
+                <a href="/project/index.html">Back</a>
+
             </div>
 
         </form>
