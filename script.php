@@ -17,6 +17,7 @@
           address: $("#address").val(),
           postalCode: $("#postalCode").val(),
           termsCondition: $("#termsCondition").is(":checked"),
+          
         };
         ajax(data,'index.html');
         } 
@@ -53,6 +54,8 @@
           contactNumber: $("#contactNumber").val(),
           email: $("#email").val(),
           termsCondition: $("#termsCondition").is(":checked"),
+          type: $('input[name="type"]:checked').val(),
+
         };
         
         // } 
@@ -69,6 +72,7 @@
           contactNumber: $("#contactNumber").val(),
           email: $("#email").val(),
           termsCondition: $("#termsCondition").is(":checked"),
+          type: $('input[name="type"]:checked').val(),
         };
         ajax(data,'index.html');
         }

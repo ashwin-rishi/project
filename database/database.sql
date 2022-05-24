@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: May 21, 2022 at 09:52 AM
+-- Generation Time: May 24, 2022 at 05:49 PM
 -- Server version: 10.4.22-MariaDB
 -- PHP Version: 7.4.27
 
@@ -34,7 +34,8 @@ CREATE TABLE `donatingusers` (
   `designation` varchar(100) NOT NULL,
   `contactNumber` varchar(100) NOT NULL,
   `email` varchar(100) NOT NULL,
-  `termsCondition` varchar(100) NOT NULL
+  `termsCondition` varchar(100) NOT NULL,
+  `type` varchar(100) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 -- --------------------------------------------------------
@@ -55,6 +56,13 @@ CREATE TABLE `registeredusers` (
   `postalCode` varchar(100) NOT NULL,
   `termsCondition` varchar(100) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+--
+-- Dumping data for table `registeredusers`
+--
+
+INSERT INTO `registeredusers` (`id`, `firstName`, `secondName`, `parentName`, `age`, `reason`, `phoneNumber`, `address`, `postalCode`, `termsCondition`) VALUES
+(1, 'Kermit', 'Hewitt', 'Donovan Morales', 'Est voluptas aliquid', 'Qui sit culpa in re', '+1 (186) 554-3559', 'Reiciendis fugiat h', 'Velit omnis molestia', 'true');
 
 --
 -- Indexes for dumped tables
@@ -86,7 +94,7 @@ ALTER TABLE `donatingusers`
 -- AUTO_INCREMENT for table `registeredusers`
 --
 ALTER TABLE `registeredusers`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

@@ -36,9 +36,16 @@
           <input type="number" class="input" id="contactNumber">
         </div>
         <span id="err3"></span>
+        
         <div class="input_field">
           <label>Mail Id</label>
           <input type="email" class="input" id="email">
+        </div>
+        <div class="input_field">
+          <label>Donation Type</label>
+          &nbsp;&nbsp;&nbsp;
+          <input type="radio" name="type" id="cash" value="cash" ><label>Cash</label> 
+          <input type="radio" name="type" id="goods" value="goods"><label>Goods</label> 
         </div>
         <div class="input_field terms">
           <label class="check">
@@ -50,7 +57,7 @@
         <div class="input_field">
           <button class="btn" type="button" onclick="submitData('donate');">Submit</button>
         </div>
-        <a href="/project/index.html">Back</a>
+        <a href="/project/index.html"><button class="btn1">  Back </button></a>
       </div>
     </form>
   </div>

@@ -46,6 +46,21 @@
           <label>Mail Id</label>
           <input type="email" class="input" id="email" value="<?php echo $rows['email']; ?>">
         </div>
+        <div class="input_field">
+          <label>Mail Id</label>
+          <input type="email" class="input" id="email" value="<?php echo $rows['email']; ?>">
+        </div>
+        <div class="input_field">
+          <label>Donation Type</label>
+          &nbsp;&nbsp;&nbsp;
+          <input type="radio" name="type" id="cash" value="cash"  <?php 
+                      if($rows["type"] == 'cash') {echo 'checked';}
+                        ?>><label>Cash</label> 
+          <input type="radio" name="type" id="goods" value="goods"
+          <?php 
+                      if($rows["type"] == 'goods') {echo 'checked';}
+                        ?>><label>Goods</label> 
+        </div>
         <div class="input_field terms">
           <label class="check">
             <input type="checkbox" id="termsCondition"
@@ -59,7 +74,7 @@
         <div class="input_field">
           <button class="btn" type="button" onclick="submitData('donateEdit');">Submit</button>
         </div>
-        <a href="/project/donatedUsersList.php">Back</a>
+        <a href="/project/donatedUsersList.php"><button class="btn1">  Back </button></a>
       </div>
     </form>
   </div>

@@ -66,7 +66,7 @@
                 <div class="input_field">
                     <button class="btn" type="button" onclick="submitData('registerEdit');">Submit</button>
                 </div>
-                <a href="/project/registeredUsersList.php">Back</a>
+                <a href="/project/registeredUsersList.php"><button class="btn1">  Back </button></a>
             </div>
 
         </form>

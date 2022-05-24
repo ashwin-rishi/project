@@ -8,7 +8,7 @@
 }
 
 body{
-    background:#2f4f4f;
+    background:#154e6f96;
     padding: 0 10px;
 }
 
@@ -25,7 +25,7 @@ body{
      font-size:24px ;
      font-weight: 700;
      margin-bottom: 25px;
-     color:#2f4f4f;
+     color: #2e2e37d4;
      text-transform: uppercase;
      text-align: center;
 }
@@ -144,11 +144,23 @@ body{
     padding: 8px 10px;
     font-size: 15px;
     border:0;
-    background:#2f4f4f;
+    background:#5331ef;
     color:white;
     cursor:pointer;
     border-radius: 3px;
     outline: none;
+}
+.btn1{
+    width: 100%;
+    padding: 8px 10px;
+    font-size: 15px;
+    border:0;
+    background:#5331ef;
+    color:white;
+    cursor:pointer;
+    border-radius: 3px;
+    outline: none;
+
 }
 
 .wrapper .form .input_field:last-child{
@@ -156,5 +168,5 @@ body{
 }
 
 .wrapper .form .input_field .btn:hover{
-    background: #d5dbd9;
+    background: #160f3a;
 }

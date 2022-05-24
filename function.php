@@ -51,9 +51,11 @@ function donateuser(){
   $contactNumber = $_POST["contactNumber"];
   $email = $_POST["email"];
   $termsCondition = $_POST["termsCondition"];
+  $type = $_POST["type"];
 
 
-  $query = "INSERT INTO donatingusers VALUES('', '$donarName', '$gender', '$designation', '$contactNumber', '$email', '$termsCondition')";
+
+  $query = "INSERT INTO donatingusers VALUES('', '$donarName', '$gender', '$designation', '$contactNumber', '$email', '$termsCondition', '$type')";
   mysqli_query($conn, $query);
   echo "Registered Successfully . Our team will Contact you!!";
 }
@@ -86,8 +88,9 @@ function editdonate(){
   $contactNumber = $_POST["contactNumber"];
   $email = $_POST["email"];
   $termsCondition = $_POST["termsCondition"];
+  $type = $_POST["type"];
 
-  $query = "UPDATE donatingusers SET donarName = '$donarName', gender = '$gender', designation = '$designation', contactNumber = '$contactNumber', email = '$email', termsCondition = '$termsCondition' WHERE id = $id";
+  $query = "UPDATE donatingusers SET donarName = '$donarName', gender = '$gender', designation = '$designation', contactNumber = '$contactNumber', email = '$email', termsCondition = '$termsCondition', type = '$type'  WHERE id = $id";
   mysqli_query($conn, $query);
   echo "Updated Successfully";
 }

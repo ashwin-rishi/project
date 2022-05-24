@@ -12,7 +12,11 @@
     <div class="wrapper">
         <div class="title">
             Registration Form
+            <br>
+            <strong style="font-size: 10px;">Note::</strong><span style="font-size: 10px;color:black" >Only Female students accepted</span>
+          
         </div>
+        
         <form class="needs-validation" autocomplete="off" action="" method="post">
             <div class="form">
                 <div class="input_field">
@@ -36,7 +40,7 @@
                     <input type="text" class="input" id="reason">
                 </div>
                 <div class="input_field">
-                    <label>phone Number</label>
+                    <label>Phone Number</label>
                     <input type="text" class="input" id="phoneNumber"><br>
                 </div>
                 <span id="err3"></span>
@@ -59,7 +63,9 @@
                     <button class="btn" type="button" onclick="submitData('register');">Submit</button><br>
                 </div>
 
-                <a href="/project/index.html">Back</a>
+                <a href="/project/index.html">
+                <button class="btn1">  Back </button>
+                </a>
 
             </div>
 

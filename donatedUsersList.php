@@ -48,6 +48,7 @@
                       <th scope="col">Designation</th>
                       <th scope="col">Contact Number</th>
                       <th scope="col">Email</th>
+                      <th scope="col">Type</th>
                       <th scope="col">Terms Condition</th>
                       <th scope="col">Edit</th>
                       <th scope="col">Delete</th>
@@ -68,10 +69,16 @@
                       <td><?php echo $row["contactNumber"]; ?></td>
                       <td><?php echo $row["email"]; ?></td>
                       <td><?php 
+                      if($row["type"] == 'goods') {echo 'Goods';}
+                      else{
+                        echo 'Cash';
+                      }  ?></td>
+                      <td><?php 
                       if($row["termsCondition"] == 'true') {echo 'Checked';}
                       else{
                         echo 'Not Checked';
                       }  ?></td>
+                      
                       <td>
                       <a class="btn btn-primary"  href="donEdit.php?id=<?php echo $row['id']; ?>">Edit</a>
                       </td>

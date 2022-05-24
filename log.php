@@ -21,7 +21,8 @@
         <span id="err4"></span>
 
         <button type="button" onclick="login()">Login</button>
-        <a>forgot password?</a><a href="/project/index.html">Back</a>
+        <a href="/project/index.html"><button type="button" > <strong>Back </strong> </button></a>
+
     </form>
     
 </body>
