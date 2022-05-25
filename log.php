@@ -10,10 +10,10 @@
 <body>
     
     <form autocomplete="off" class="login_form" method="post" name="form" onsubmit="vali();">
-        <h1>Staff Login</h1>
+        <h1>STAFF LOGIN</h1>
         
         <label>Username:</label><span id="err2" style="margin-left: 10%;"></span>
-        <input type="text" id="email" placeholder="email" autocomplete="off">
+        <input type="text" id="email" placeholder="Email" autocomplete="off">
         <span id="err2"></span>
         <br />
         <label>Password</label><span id="err4" style="margin-left: 10%;"></span>
@@ -32,7 +32,7 @@
         if(email() && password()){
             var emailid = $("#email").val();
             var pwd = $("#password").val();
-            if(emailid == 'admin@gmail.com' && pwd == '1234'){
+            if(emailid == 'maduraisevashram@gmail.com' && pwd == 'mdu@2641537'){
                 alert("Successfully Logged In");
                 window.location = '/project/registeredUsersList.php';
             }
