@@ -74,7 +74,7 @@
         <div class="input_field">
           <button class="btn" type="button" onclick="submitData('donateEdit');">Submit</button>
         </div>
-        <a href="/project/donatedUsersList.php"><button class="btn1">  Back </button></a>
+        <a class="btn1" href="/project/donatedUsersList.php">Back </a>
       </div>
     </form>
   </div>

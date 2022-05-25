@@ -23,35 +23,41 @@
                     <label>Student First Name</label>
                     <input type="text" class="input" id="firstName">
                 </div>
+                <span id="err1"></span>
                 <div class="input_field">
                     <label>Student Second Name</label>
                     <input type="text" class="input" id="secondName">
                 </div>
+                <span id="err2"></span>
                 <div class="input_field">
                     <label>Parent/gaurdian Name</label>
                     <input type="text" class="input" id="parentName">
                 </div>
+                <span id="err3"></span>
                 <div class="input_field">
                     <label>Age</label>
-                    <input type="text" class="input" id="age">
+                    <input type="number" class="input" id="age">
                 </div>
+                <span id="err4"></span>
                 <div class="input_field">
                     <label>Reason for choosing sevashramam</label>
                     <input type="text" class="input" id="reason">
                 </div>
                 <div class="input_field">
                     <label>Phone Number</label>
-                    <input type="text" class="input" id="phoneNumber"><br>
+                    <input type="number" class="input" id="phoneNumber"><br>
                 </div>
-                <span id="err3"></span>
+                <span id="err5"></span>
                 <div class="input_field">
                     <label>Address</label>
                     <textarea class="textarea" id="address"></textarea>
                 </div>
+                <span id="err6"></span>
                 <div class="input_field">
                     <label>Postal code</label>
-                    <input type="text" class="input" id="postalCode">
+                    <input type="number" class="input" id="postalCode">
                 </div>
+                <span id="err7"></span>
                 <div class="input_field terms">
                     <label class="check">
                         <input type="checkbox" id="termsCondition">
@@ -59,13 +65,14 @@
                     </label>
                     <p>Agreed to follow the terms and conditions of Madurai Sevashramam</p>
                 </div>
+                <span id="err8"></span>
                 <div class="input_field">
                     <button class="btn" type="button" onclick="submitData('register');">Submit</button><br>
                 </div>
 
-                <a href="/project/index.html">
-                <button class="btn1">  Back </button>
-                </a>
+                
+                <a class="btn1" href="/project/index.html">  Back</a> 
+                
 
             </div>
 
